@@ -1,0 +1,357 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #000000;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+.leftbox{
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #000000;
+  width: 315px;
+}
+.homebar{
+  width: 306px;
+  height: 123px;
+  margin-top: 4px;
+  margin-left: 7px;
+  border-radius: 12px;
+  background-color: #121212;
+}
+.leftbox .homebar ul{
+  list-style: none;
+  color: white;
+  padding: 14px;
+  margin: 10px;
+}
+.leftbox .homebar ul li{
+  cursor: pointer;
+  height: 37px;
+  padding-left: 10px;
+}
+.leftbox .homebar ul li:hover{
+  font-size: large;
+}
+.home{
+  padding-left: 15px;
+}
+.homelower{
+  width: 306px;
+  height: 221px;
+  margin-top: 8px;
+  margin-left: 7px;
+  border-radius: 12px;
+  background-color: #121212;
+}
+.homelower ul{
+  list-style: none;
+  color: white; 
+}
+.homelower ul li{
+  cursor: pointer;
+  padding-left: 15px;
+  padding-top: 12px;
+  font-size: large;
+}
+::-webkit-scrollbar{
+  width: 0px;
+  opacity: 0;
+}
+.homelower #lib:hover{
+  font-size:larger;
+}
+
+.scrollbox{
+  height: 109px;
+  width: 279px;
+  cursor:default;
+  overflow-y: scroll; 
+  margin: 12px;
+  background-color:#181818;
+  border-radius:8px ;
+}
+.boxxx{
+  height: 148px;
+  background-color: #242424;
+  margin-bottom: 34px;
+  border-radius: 8px;
+}
+.boxxx button{
+  height: 41px;
+    width: 132px;
+    border-radius: 28px;
+    color: black;
+    background-color: white;
+    padding: 0px;
+    margin: 23px;
+    margin-top: 24px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.cookiesbox{
+  height: 220px;
+  width: 306px;
+  background-color: #121212;
+  margin-left: 7px;
+  border-radius: 0px 0px 12px 12px;
+  margin-top: -61px;
+}
+.cookiesbox ul li{
+  cursor: pointer;
+    font-size: 12px;
+    display: inline-block;
+    margin: 2px;
+    padding: 1px;
+    margin-top: 23px;
+    margin-left: 10px;
+}
+.cookiesbox button{
+  margin-left: 42px;
+    margin-top: 66px;
+    height: 30px;
+    width: 86px;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+    border:1px solid white;
+    border-color: white;
+    cursor: pointer;
+    
+}
+.maincontainer{
+  margin-left: 319px;
+  margin-bottom: 100px;
+}
+.maincontainer .topbar{
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 14px;
+  background-color: #101010;
+  margin-top: 12px;
+  position: fixed;
+  width: 915px;
+  margin-left: 5px;
+}
+
+.topbar .leftb button{
+  height: 30px;
+    width: 30px;
+    color: white;
+    cursor: pointer;
+    background-color: #1e1b1b;
+    border-radius: 100%;
+    border: 0px;
+    margin-right: 18px;
+    margin-top: 18px;
+    padding: 5px;
+}
+.topbar .navbar{
+  display: flex;
+  align-items: center;
+}
+.topbar .navbar ul{
+  list-style: none;
+  margin-left: 284px;
+}
+.topbar .navbar ul li{
+  display: inline-block;
+  margin: 0px 7px;
+    width: 73px;
+}
+.topbar .navbar ul li a{
+  text-decoration:none ;
+  color: white;
+  font-size:17px;
+}
+.topbar .navbar ul li a:hover,
+.topbar .navbar ul li a:active,
+.topbar .navbar ul li a:focus{
+  font-size: 18px;
+}
+.topbar .navbar button{
+  height: 46px;
+    width: 97px;
+    border-radius: 34px;
+    border: 0px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.topbar .navbar button:hover{
+  background-color: #f2f2f2;
+  font-weight:800;
+
+}
+.scrollbox22 ::-webkit-scrollbar{
+    width: 0px;
+    opacity: 0;
+  }
+
+.scrollbox22{
+  left: 4px;
+  position: relative;
+  top: 86px;
+  height: 435px;
+  background:linear-gradient(#1e1c1c,#0a0a0a);
+  background-size: 30%, 70%;
+
+  border-radius: 0px 0px 6px 6px;
+  margin-right: 39px;
+  overflow-y: scroll;
+  width: 944px
+}
+.playlist{
+  padding: 20px 40px;
+}
+.playlist h2{
+  font-size: 25px;
+  margin-bottom: 23px;
+  cursor: pointer;
+}
+.playlist h2:hover{
+  text-decoration: underline;
+}
+.playlist .list{
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+}
+.playlist .list .item{
+  min-width: 140px;
+  width: 160px;
+  padding: 20px;
+  cursor: pointer;
+  transition: all ease 0.4s;
+  border-radius: 6px;
+  background-color: #1b1a1a;
+}
+.playlist .list .item:hover{
+  background-color: #252525;
+}
+.playlist .list .item img{
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+.playlist .list .item .play{
+  position: relative;
+}
+.playlist .list .item .play .fa {
+  position: absolute;
+  right: 10px;
+    padding: 16px;
+    top: -54px;
+    background-color: #1db954;
+    color: black;
+    border-radius: 100%;
+    padding-left: 18px;
+    opacity: 0;
+    transition: all ease 0.4s;
+}
+.playlist .list .item:hover .play .fa {
+  opacity: 1;
+  transform: translateY(-20px);
+}
+.playlist .list .item h4{
+  color: white;
+  margin-bottom: 10px;
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.playlist .list .item p{
+  font-size: 12px;
+  color:#989898;
+  line-height: 20px;
+  font-weight: 600;
+}
+.bottom{
+  position: fixed;
+  bottom: 0;
+  height: 68px;
+  width: 100%;
+  background: linear-gradient(to right, #ae2896, #509bf5);
+  color: white;
+  margin-bottom: 5px;
+  justify-content: center;
+}
+.bottom h6{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 10px;
+  padding-left: 21px;
+  padding-top: 14px;
+}
+.bottom p{
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 19px;
+}
+
+.lowerproperty {
+  display: flex;
+}
+.lowerproperty .container{
+  width: 170px;
+  padding: 17px;
+  margin: 14px;
+  
+}
+.lowerproperty .container ul{
+  list-style: none;
+}
+.lowerproperty .container ul li{
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 0px;
+  margin-top: 2px;
+  color: #989898;
+  cursor: pointer;
+
+}
+.container .logos{
+  display: inline-block;
+    width: 34px;
+    height: 35px;
+    background-color: #242424;
+    border-radius: 100%;
+    font-size: 27px;
+    cursor: pointer;
+    margin: 8px;
+
+}
+.container .logos:hover{
+  background-color:#1c1b1b;
+}
+#copyright{
+  margin-left: 20px;
+    margin-top: 31px;
+    margin-bottom: 68px;
+    height: 77px;
+    font-size: 14px;
+    font-weight: 100;
+    color: #989899;
+}
+.bottom button{
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 14px 30px;
+  border: 0px;
+  border-radius: 40px;
+  cursor: pointer;
+  position: relative;
+  top: -41px;
+  left: 1078px;
+}
